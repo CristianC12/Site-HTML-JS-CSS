@@ -30,7 +30,7 @@ var alturaValida = true;
         tdIMC.textContent = "Altura inválida"
     }
 
-if( alturaValida = true && pesoValido == true){
+if( alturaValida && pesoValido ){
 var imc = peso / (altura * altura);
 tdIMC.textContent = imc;
 }
